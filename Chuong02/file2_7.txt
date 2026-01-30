@@ -1,0 +1,7 @@
+Dữ liệu hệ thống:
+
+- Hệ điều hành: Windows_NT (win32)
+- Cấu hình CPU: 12th Gen Intel(R) Core(TM) i5-12500H
+- Tổng dung lượng RAM: 31.71 GB
+- RAM đã sử dụng (USED RAM): 14.39 GB
+- RAM còn trống: 17.32 GB
