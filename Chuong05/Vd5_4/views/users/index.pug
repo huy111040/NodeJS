@@ -1,0 +1,21 @@
+//- Sửa 'from' thành 'form' và action thêm 's'
+form.search-form(action="/users/search", method="GET")
+  input(name="name", type="text", placeholder="Nhập tên cần tìm...", value=keyword)
+  button(type="submit") Tìm kiếm
+
+.users
+  h2 Danh sách người dùng
+  //- Kiểm tra nếu mảng users tồn tại và có phần tử
+  if users && users.length > 0
+    table
+      thead
+        tr
+          th Tên thành viên
+          th Địa chỉ Email
+      tbody
+        each user in users
+          tr
+            td= user.name
+            td= user.email
+  else
+    p Không tìm thấy kết quả nào khớp với yêu cầu!
